@@ -1,0 +1,76 @@
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.done-image {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .done-image {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.payment-successful {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1e293b;
+  margin-top: 28.8px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-successful {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+}
+
+.success-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+  width: 270px;
+  height: 48px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .success-description {
+    font-size: 16px;
+  }
+}
+
+.go-to-home-btn {
+  padding: 8px 16px;
+  background: #f7931e;
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+}
+
+.payment-to-home-link {
+  text-decoration: none;
+}

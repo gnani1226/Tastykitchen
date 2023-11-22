@@ -1,0 +1,292 @@
+.popular-restaurants-bg-container {
+  width: 85%;
+}
+
+.popular-restaurants {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #183b56;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-restaurants {
+    font-size: 32px;
+  }
+}
+
+.filter-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-description-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.popular-restaurants-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-restaurants-description {
+    font-size: 16px;
+  }
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.sort-by-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.select-style {
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.restaurants-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurants-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+  }
+}
+
+.restaurant-details {
+  width: 47%;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-details {
+    width: 150px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .restaurant-details {
+    width: 174px;
+  }
+}
+
+.restaurant-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.restaurant-image {
+  width: 50%;
+  height: 120px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .restaurant-image {
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-image {
+    width: 130px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .restaurant-image {
+    width: 160px;
+    height: 100px;
+  }
+}
+
+.restaurant-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-name {
+    font-size: 18px;
+  }
+}
+
+.cuisine {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .cuisine {
+    font-size: 14px;
+  }
+}
+
+.ratings-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+}
+
+.total-ratings {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-button {
+  border: 1px solid #334155;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .pagination-button {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+.pagination {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #334155;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .pagination {
+    font-size: 20px;
+  }
+}
+
+.horizontal-line {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .horizontal-line {
+    display: block;
+    border: 1px dashed #cbd2d9;
+    margin-top: 24px;
+    margin-bottom: 48px;
+  }
+}
+
+.restaurants-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-pagination {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #334155;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .active-pagination {
+    font-size: 20px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}

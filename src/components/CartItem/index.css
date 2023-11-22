@@ -1,0 +1,154 @@
+.cart-item {
+  list-style-type: none;
+}
+
+.cart-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-rate-quantity-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-image-container {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+  }
+}
+
+.cart-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-name {
+    display: none;
+  }
+}
+
+.cart-item-name-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-name-desktop {
+    display: block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #183b56;
+  }
+}
+
+.cart-item-counter {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-counter {
+    margin-bottom: 0px;
+  }
+}
+
+.cart-item-counter-button {
+  size: 24px;
+  border: none;
+  background-color: transparent;
+}
+
+.cart-item-counter-icon {
+  width: 18px;
+  height: 18px;
+  color: #3e4c59;
+  border-radius: 0.84375px;
+}
+
+.cart-item-count {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.cart-item-image {
+  width: 136px;
+  height: 90px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-image {
+    height: 100px;
+  }
+}
+
+.cart-item-cost-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-rupee-icon {
+  width: 16px;
+  height: 16px;
+  color: #ffa412;
+}
+
+.cart-item-rate {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cart-item-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-details-container {
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+  }
+}

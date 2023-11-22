@@ -1,0 +1,176 @@
+.cart-items-bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-items-container {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-items-container {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+}
+
+.cart-items-heading-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-items-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+}
+
+.cart-items-quantity-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.cart-items-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+
+.item-heading-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-items-width-control-container {
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-items-width-control-container {
+    width: 85%;
+    background: #f9fbfe;
+    border: 1px solid rgba(11, 105, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.cart-dashed-line {
+  border: 1px dashed #cbd2d9;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-dashed-line {
+    align-self: stretch;
+  }
+}
+
+.total-amount-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-amount-container {
+    margin-bottom: 32px;
+    margin-left: 7%;
+    margin-right: 6%;
+  }
+}
+
+.order-total {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e4c59;
+}
+
+@media screen and (min-width: 786px) {
+  .order-total {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.total-container {
+  display: flex;
+  align-items: center;
+}
+
+.order-rupee-icon {
+  color: #3e4c59;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-rupee-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.total {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #3e4c59;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .total {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.place-order-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .place-order-container {
+    margin-right: 5%;
+  }
+}
+
+.place-order-btn {
+  width: 99px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .place-order-btn {
+    padding: 8px 16px 8px 16px;
+  }
+}
