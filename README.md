@@ -2,6 +2,8 @@ In this project let's build a **Tasty Kitchens App** by applying the concepts we
 
 You will demonstrate your skills by creating an app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
 
+Credentials username: **rahul** password: **rahul@2021**
+
 This is an individual assessment. All work must be your own. You will also be given feedback by code reviewers after your project submission.
 
 ### Prerequisites
